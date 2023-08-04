@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+}
+/* LIBRARY OVERRIDES */
+.rdt {
+  position: static !important;
+}
+.react-tabs__tab-panel--selected {
+  display: flex !important;
+}
+
+.swiper {
+  width: 240px;
+  height: calc(320px + 4rem);
+  padding: 0 0 4rem 0 !important;
+}
