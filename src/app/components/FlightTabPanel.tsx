@@ -113,10 +113,10 @@ const FlightTabPanel = () => {
 
                     <select
                       name="class"
-                      className="pl-10 pr-4 py-2 pr-4 border border-gray-300 rounded focus:outline-none focus:ring focus:border-blue-300 w-full text-sm"
+                      className="pl-10 py-2 pr-4 border border-gray-300 rounded focus:outline-none focus:ring focus:border-blue-300 w-full text-sm"
                       placeholder="Enter text here"
                     >
-                      <option value="">First class</option>
+                      <option className='py-2' value="">First class</option>
                       <option value="">Economy</option>
                       <option value="">Business class</option>
                     </select>
