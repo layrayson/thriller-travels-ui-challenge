@@ -2,10 +2,10 @@
 
 import { useState } from 'react';
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
-import CarTabPanel from '../CarTabPanel';
-import FlightTabPanel from '../FlightTabPanel';
-import ShipTabPanel from '../ShipTabPanel';
-import TrainTabPanel from '../TrainTabPanel';
+import CarTabPanel from './CarTabPanel';
+import FlightTabPanel from './FlightTabPanel';
+import ShipTabPanel from './ShipTabPanel';
+import TrainTabPanel from './TrainTabPanel';
 
 import 'react-tabs/style/react-tabs.css';
 import 'react-datetime/css/react-datetime.css';
