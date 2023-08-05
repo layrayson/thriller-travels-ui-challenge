@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 /*
  * ATTENTION: An "eval-source-map" devtool has been used.
  * This devtool is neither made for production nor for readable output files.
@@ -7,21 +7,30 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-self["webpackHotUpdate_N_E"]("webpack",{},
-/******/ function(__webpack_require__) { // webpackRuntimeModules
-/******/ /* webpack/runtime/get mini-css chunk filename */
-/******/ !function() {
-/******/ 	// This function allow to reference all chunks
-/******/ 	__webpack_require__.miniCssF = function(chunkId) {
-/******/ 		// return url for filenames based on template
-/******/ 		return undefined;
-/******/ 	};
-/******/ }();
-/******/ 
-/******/ /* webpack/runtime/getFullHash */
-/******/ !function() {
-/******/ 	__webpack_require__.h = function() { return "4a6554be245408c9"; }
-/******/ }();
-/******/ 
-/******/ }
+self['webpackHotUpdate_N_E'](
+  'webpack',
+  {},
+  /******/ function (__webpack_require__) {
+    // webpackRuntimeModules
+    /******/ /* webpack/runtime/get mini-css chunk filename */
+    /******/ !(function () {
+      /******/ // This function allow to reference all chunks
+      /******/ __webpack_require__.miniCssF = function (chunkId) {
+        /******/ // return url for filenames based on template
+        /******/ return undefined;
+        /******/
+      };
+      /******/
+    })();
+    /******/
+    /******/ /* webpack/runtime/getFullHash */
+    /******/ !(function () {
+      /******/ __webpack_require__.h = function () {
+        return '4a6554be245408c9';
+      };
+      /******/
+    })();
+    /******/
+    /******/
+  },
 );
