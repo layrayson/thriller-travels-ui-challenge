@@ -1,7 +1,0 @@
-{
-  "c": ["app/page", "webpack"],
-  "r": [],
-  "m": [
-    "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fmac%2FDocuments%2Fwork%2Fapplications%2Fthriller-travels-ui-challenge%2Fsrc%2Fapp%2Fcomponents%2Fsearch-result-section%2FSearchResultSection.tsx&modules=%2FUsers%2Fmac%2FDocuments%2Fwork%2Fapplications%2Fthriller-travels-ui-challenge%2Fsrc%2Fapp%2Fcomponents%2Fform-section%2FFormSection.tsx&server=false!"
-  ]
-}
