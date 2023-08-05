@@ -113,13 +113,24 @@ const FlightTabPanel = () => {
 
                     <select
                       name="class"
-                      className="pl-10 pr-4 py-2 pr-4 border border-gray-300 rounded focus:outline-none focus:ring focus:border-blue-300 w-full text-sm"
+                      className="block appearance-none pl-10 py-2 pr-4 border border-gray-300 bg-white rounded focus:outline-none focus:ring focus:border-blue-300 w-full text-sm"
                       placeholder="Enter text here"
                     >
+                      <option selected>--Select class</option>
+
                       <option value="">First class</option>
                       <option value="">Economy</option>
                       <option value="">Business class</option>
                     </select>
+                    <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                      <svg
+                        className="fill-current h-4 w-4"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M9.293 14.293a1 1 0 0 0 1.414 0L14 10.414A1 1 0 1 0 12.586 9L10 11.586 7.414 9a1 1 0 1 0-1.414 1.414L9.293 14.293z" />
+                      </svg>
+                    </div>
                   </div>
                 </div>
                 <div className="col-span-1">
@@ -137,12 +148,12 @@ const FlightTabPanel = () => {
                       name="passengers"
                       type="number"
                       className="pl-10 pr-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring focus:border-blue-300 w-full text-sm"
-                      placeholder="Enter text here"
+                      placeholder="Enter"
                     />
                   </div>
                 </div>
               </div>
-            </div>{' '}
+            </div>
           </div>
           <div className="">
             <button className="w-full bg-blue-500 text-white flex justify-center items-center uppercase py-2 rounded font-medium text-sm border border-blue-500">
