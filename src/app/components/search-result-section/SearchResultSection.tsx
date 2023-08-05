@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 
 const SearchResultSection = () => {
   return (
-    <div className="lg:w-2/3 h-screen border-l border-white bg-sky-50">
+    <div className="lg:w-2/3 h-screen overflow-auto border-l border-white bg-sky-50">
       <div className="p-8 h-full flex flex-col">
         <div className="lg:flex justify-between mb-8">
           <div className="mb-4 lg:mb-0">
